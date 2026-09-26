@@ -1,0 +1,370 @@
+
+/home/claude/static-analysis/src/app/AdminAuthGuard.ts
+  16:15  warning  'route' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/claude/static-analysis/src/app/UserAuthGuard.ts
+  15:15  warning  'route' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/claude/static-analysis/src/app/_helpers/auth.interceptor.ts
+  16:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:77  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  19:15  warning  Expected '!==' and instead saw '!='       eqeqeq
+
+/home/claude/static-analysis/src/app/_helpers/contenttype.interceptor.ts
+  11:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  11:77  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_helpers/discount.util.ts
+  6:31  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/brand.service.ts
+  19:43  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  20:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  45:36  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  73:31  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/browser-detector.service.ts
+  11:10  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/cart.service.ts
+   19:17  warning  Unexpected any. Specify a different type                     @typescript-eslint/no-explicit-any
+   20:40  warning  Expected '===' and instead saw '=='                          eqeqeq
+   21:11  error    'items' is never reassigned. Use 'const' instead             prefer-const
+   21:18  warning  Unexpected any. Specify a different type                     @typescript-eslint/no-explicit-any
+   25:11  error    'itemsFromStorage' is never reassigned. Use 'const' instead  prefer-const
+   28:13  error    'thorHammerInCart' is never reassigned. Use 'const' instead  prefer-const
+   36:11  error    'itemFound' is never reassigned. Use 'const' instead         prefer-const
+   36:55  warning  Unexpected any. Specify a different type                     @typescript-eslint/no-explicit-any
+   36:71  warning  Expected '===' and instead saw '=='                          eqeqeq
+   53:9   error    'item' is never reassigned. Use 'const' instead              prefer-const
+   76:9   error    'item' is never reassigned. Use 'const' instead              prefer-const
+   98:83  warning  Expected '!==' and instead saw '!='                          eqeqeq
+  104:9   error    'itemsFromStorage' is never reassigned. Use 'const' instead  prefer-const
+  105:84  warning  Expected '===' and instead saw '=='                          eqeqeq
+  109:9   error    'itemsFromStorage' is never reassigned. Use 'const' instead  prefer-const
+  110:84  warning  Expected '===' and instead saw '=='                          eqeqeq
+
+/home/claude/static-analysis/src/app/_services/category.service.ts
+  20:47  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  21:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  39:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  64:42  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  92:31  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/contact.service.ts
+  18:21  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  18:38  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  19:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  24:38  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  28:61  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  32:64  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  35:32  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  39:30  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  53:56  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/favorite.service.ts
+  17:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  17:41  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  21:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  25:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/image.service.ts
+  23:31  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/invoice.service.ts
+  17:20  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  17:37  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  18:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  23:23  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  23:55  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  24:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  30:23  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  30:40  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  31:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  37:38  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  41:26  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  41:43  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  45:80  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  52:31  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/payment.service.ts
+  14:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  14:35  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  14:52  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/product.service.ts
+   19:21   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   20:9    error    'params' is never reassigned. Use 'const' instead  prefer-const
+   26:105  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   26:120  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   26:131  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   52:9    error    'params' is never reassigned. Use 'const' instead  prefer-const
+   58:45   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   59:9    error    'params' is never reassigned. Use 'const' instead  prefer-const
+   67:9    error    'params' is never reassigned. Use 'const' instead  prefer-const
+   74:38   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   78:46   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   82:46   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   82:61   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  107:41   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  132:31   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/report.service.ts
+  17:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  22:53  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  27:52  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  32:41  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  37:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  42:47  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  47:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  52:31  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/toast.service.ts
+   8:11  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  10:40  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  10:55  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  14:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/toasts.component.ts
+  37:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/_services/user.service.ts
+  19:18  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  20:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  25:20  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  25:52  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  26:9   error    'params' is never reassigned. Use 'const' instead  prefer-const
+  36:34  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  61:31  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/account/invoices/invoices.component.ts
+  29:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/account/messages/message-detail/message-detail.component.ts
+  70:9   error  'messageId' is never reassigned. Use 'const' instead  prefer-const
+  92:14  error  'name' is never reassigned. Use 'const' instead       prefer-const
+
+/home/claude/static-analysis/src/app/account/profile/profile.component.ts
+  98:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/admin/brands-add-edit/brands-add-edit.component.ts
+   72:14  error    'name' is never reassigned. Use 'const' instead  prefer-const
+  107:21  warning  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/admin/brands-list/brands-list.component.ts
+  27:27  warning  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  39:9   error    'query' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/categories-add-edit/categories-add-edit.component.ts
+  110:21  warning  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+  117:14  error    'name' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/categories-list/categories-list.component.ts
+  27:27  warning  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  39:9   error    'query' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/dashboard/dashboard.component.ts
+   65:9   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+   97:11  error    'labels' is never reassigned. Use 'const' instead  prefer-const
+  100:11  error    'data' is never reassigned. Use 'const' instead    prefer-const
+  111:19  error    'r' is never reassigned. Use 'const' instead       prefer-const
+  112:19  error    'g' is never reassigned. Use 'const' instead       prefer-const
+  113:19  error    'b' is never reassigned. Use 'const' instead       prefer-const
+
+/home/claude/static-analysis/src/app/admin/message-detail/message-detail.component.ts
+   36:17  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   63:9   error    'status' is never reassigned. Use 'const' instead     prefer-const
+   64:29  warning  Expected '===' and instead saw '=='                   eqeqeq
+   92:9   error    'messageId' is never reassigned. Use 'const' instead  prefer-const
+  114:14  error    'name' is never reassigned. Use 'const' instead       prefer-const
+
+/home/claude/static-analysis/src/app/admin/orders-add-edit/orders-add-edit.component.ts
+  30:28  warning  Unexpected any. Specify a different type                   @typescript-eslint/no-explicit-any
+  35:15  warning  Unexpected any. Specify a different type                   @typescript-eslint/no-explicit-any
+  54:29  warning  Expected '===' and instead saw '=='                        eqeqeq
+  58:29  warning  Expected '===' and instead saw '=='                        eqeqeq
+  62:9   error    'status' is never reassigned. Use 'const' instead          prefer-const
+  63:9   error    'status_message' is never reassigned. Use 'const' instead  prefer-const
+  76:21  warning  Unexpected any. Specify a different type                   @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/admin/orders-list/orders-list.component.ts
+  29:27  warning  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  41:9   error    'query' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/products-add-edit/products-add-edit.component.ts
+   43:18  warning  Unexpected any. Specify a different type                            @typescript-eslint/no-explicit-any
+   99:26  warning  Arrow function has a complexity of 13. Maximum allowed is 8         complexity
+  116:31  warning  Expected '===' and instead saw '=='                                 eqeqeq
+  151:3   warning  Method 'createProduct' has a complexity of 9. Maximum allowed is 8  complexity
+  199:21  warning  Unexpected any. Specify a different type                            @typescript-eslint/no-explicit-any
+  205:12  warning  'image' is defined but never used                                   @typescript-eslint/no-unused-vars
+  205:19  warning  Unexpected any. Specify a different type                            @typescript-eslint/no-explicit-any
+  207:21  warning  Expected '===' and instead saw '=='                                 eqeqeq
+  212:14  error    'name' is never reassigned. Use 'const' instead                     prefer-const
+
+/home/claude/static-analysis/src/app/admin/products-list/products-list.component.ts
+  33:27  warning  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  45:9   error    'query' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/reports/average-sales-month/average-sales-month.component.ts
+   74:9   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  104:20  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  108:17  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  110:11  error    'labels' is never reassigned. Use 'const' instead  prefer-const
+  113:11  error    'data' is never reassigned. Use 'const' instead    prefer-const
+  116:11  error    'amount' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/reports/average-sales-week/average-sales-week.component.ts
+   74:9   warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  104:20  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  110:11  error    'labels' is never reassigned. Use 'const' instead  prefer-const
+  113:11  error    'data' is never reassigned. Use 'const' instead    prefer-const
+  116:11  error    'amount' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/reports/statistics/statistics.component.ts
+  15:31  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:27  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  17:22  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  18:25  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/admin/settings/settings.component.ts
+  82:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/admin/users-add-edit/users-add-edit.component.ts
+  120:21  warning  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+  127:14  error    'name' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/admin/users-list/users-list.component.ts
+  31:27  warning  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  43:9   error    'query' is never reassigned. Use 'const' instead  prefer-const
+  54:27  warning  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/app.component.ts
+  52:7  warning  Unexpected console statement  no-console
+
+/home/claude/static-analysis/src/app/auth/forgot-password/forgot-password.component.ts
+  25:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  54:20  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  70:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/auth/login/login.component.ts
+  32:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/auth/register/register.component.ts
+  31:25  warning  Unexpected any. Specify a different type            @typescript-eslint/no-explicit-any
+  65:9   error    'newDate' is never reassigned. Use 'const' instead  prefer-const
+  65:9   warning  'newDate' is assigned a value but never used        @typescript-eslint/no-unused-vars
+
+/home/claude/static-analysis/src/app/chat-widget/chat-widget.component.ts
+   60:13  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  246:3   warning  Method 'onActionClick' has a complexity of 34. Maximum allowed is 8     complexity
+  403:20  warning  Forbidden non-null assertion                                            @typescript-eslint/no-non-null-assertion
+  406:27  warning  Forbidden non-null assertion                                            @typescript-eslint/no-non-null-assertion
+  445:3   warning  Method 'onSubmit' has a complexity of 23. Maximum allowed is 8          complexity
+  462:9   error    Unexpected lexical declaration in case block                            no-case-declarations
+  673:20  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  687:60  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  735:3   warning  Method 'startCheckoutFlow' has a complexity of 9. Maximum allowed is 8  complexity
+  769:37  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  770:45  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  824:51  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  859:24  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  867:20  warning  Unexpected any. Specify a different type                                @typescript-eslint/no-explicit-any
+  892:3   warning  Method 'showInput' has a complexity of 16. Maximum allowed is 8         complexity
+
+/home/claude/static-analysis/src/app/checkout/checkout.component.ts
+   37:19  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   38:27  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   39:27  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   40:24  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   47:10  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   49:13  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   51:17  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   52:10  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+   60:17  warning  Unexpected empty constructor                                         no-empty-function
+   60:17  warning  Unexpected empty constructor                                         @typescript-eslint/no-empty-function
+  138:15  warning  Expected '!==' and instead saw '!='                                  eqeqeq
+  140:49  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+  176:25  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+  203:18  warning  Unexpected empty arrow function                                      no-empty-function
+  203:18  warning  Unexpected empty arrow function                                      @typescript-eslint/no-empty-function
+  234:3   warning  Method 'updateQuantity' has a complexity of 9. Maximum allowed is 8  complexity
+  234:39  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+  235:21  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+  236:36  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+  236:76  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/contact/contact.component.ts
+  28:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  69:25  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/header/header.component.ts
+   23:10   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   59:9    error    'items' is never reassigned. Use 'const' instead                                 prefer-const
+   60:15   warning  Expected '!==' and instead saw '!='                                              eqeqeq
+   61:132  warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   61:143  warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+   77:3    warning  Method 'checkAndRestoreSplitScreen' has a complexity of 9. Maximum allowed is 8  complexity
+  148:77   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  348:9    warning  Unexpected console statement                                                     no-console
+  351:24   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  352:22   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  356:9    warning  Unexpected console statement                                                     no-console
+  560:87   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  561:83   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  578:16   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+  599:16   warning  Unexpected any. Specify a different type                                         @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/models/chat.ts
+  16:10  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/products/category/category.component.ts
+   42:23  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   47:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   92:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  110:27  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  133:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  148:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/products/detail/detail.component.ts
+   39:24  warning  Unexpected any. Specify a different type            @typescript-eslint/no-explicit-any
+   43:16  warning  Unexpected any. Specify a different type            @typescript-eslint/no-explicit-any
+   64:10  warning  Unexpected empty method 'plus'                      no-empty-function
+   64:10  warning  Unexpected empty method 'plus'                      @typescript-eslint/no-empty-function
+   67:11  warning  Unexpected empty method 'minus'                     no-empty-function
+   67:11  warning  Unexpected empty method 'minus'                     @typescript-eslint/no-empty-function
+   86:27  warning  Unexpected any. Specify a different type            @typescript-eslint/no-explicit-any
+   87:9   error    'payload' is never reassigned. Use 'const' instead  prefer-const
+  117:11  error    'item' is never reassigned. Use 'const' instead     prefer-const
+
+/home/claude/static-analysis/src/app/products/overview/overview.component.ts
+   45:23  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   50:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   94:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  113:27  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  184:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  199:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/claude/static-analysis/src/app/shared/customer-account.service.ts
+   25:18  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   36:30  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   47:27  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   57:21  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   57:38  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   64:28  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   71:46  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+   78:68  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  106:11  error    'authToken' is never reassigned. Use 'const' instead  prefer-const
+  119:9   error    'authToken' is never reassigned. Use 'const' instead  prefer-const
+  137:43  warning  Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  148:9   error    'authToken' is never reassigned. Use 'const' instead  prefer-const
+
+/home/claude/static-analysis/src/app/shared/password-input/password-input.component.ts
+  35:45  warning  Unexpected empty method 'onChange'   no-empty-function
+  35:45  warning  Unexpected empty method 'onChange'   @typescript-eslint/no-empty-function
+  36:33  warning  Unexpected empty method 'onTouched'  no-empty-function
+  36:33  warning  Unexpected empty method 'onTouched'  @typescript-eslint/no-empty-function
+
+✖ 262 problems (56 errors, 206 warnings)
+  55 errors and 0 warnings potentially fixable with the `--fix` option.
+

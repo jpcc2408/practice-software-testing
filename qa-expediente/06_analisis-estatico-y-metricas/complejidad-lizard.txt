@@ -1,0 +1,12 @@
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location
+------------------------------------------------
+     127     33    711      1     154 onActionClick@246-399@UI/src/app/chat-widget/chat-widget.component.ts
+     100     23    608      0     120 onSubmit@445-564@UI/src/app/chat-widget/chat-widget.component.ts
+      18     16    103      0      19 showInput@892-910@UI/src/app/chat-widget/chat-widget.component.ts
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+      6776       7.5     1.7       51.9      652            3      0.00    0.05
